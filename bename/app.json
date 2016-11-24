@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/app/index",
+    "pages/result/result"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#666",
+    "navigationBarTextStyle": "#666",
+    "navigationBarTitleText": "宝宝起名",
+    "backgroundColor": "#fff4f7"
+  }
+}

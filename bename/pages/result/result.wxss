@@ -1,0 +1,36 @@
+.bename {
+  height: 100%;
+  padding: 0 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bename-title {
+  padding-top: 88rpx;
+  padding-bottom: 10%;
+  font-size: 44rpx;
+  font-weight: normal;
+  color: #ff73a3;
+  text-align: center;
+}
+
+.bename-list {
+}
+.bename-item {
+  display: inline-block;
+  width: 40%;
+  height: 44rpx;
+  line-height: 1.6;
+  padding-left: 10%;
+  color: #666;
+  font-size: 30rpx;
+  text-align: left;
+}
+.bename-hint {
+  padding: 60rpx 0 40rpx; 
+  font-size: 28rpx;
+  font-weight: bold;
+  text-align: left;
+  color: #999;
+  text-align: center;
+}

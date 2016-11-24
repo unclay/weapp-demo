@@ -1,0 +1,9 @@
+<view class="bename">
+  <view class="bename-title">推荐名字</view>
+  <view class="bename-list">
+    <view wx:for="{{benameResult}}" wx:key="item" class="bename-item">
+      {{item}}
+    </view>
+  </view>
+  <button bindtap="render">重新计算</button>
+</view>

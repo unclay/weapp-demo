@@ -1,0 +1,63 @@
+<view>
+  <image class="banner--img" mode="aspectFit" src="image/banner.jpg"></image>
+</view>
+<view class="step">
+  <view class="step-item">
+    <view class="step--title">
+      <text class="step--title__number">1</text>
+      <text class="step--title__name">宝宝姓氏</text>
+    </view>
+    <view>
+      <input data-name="surname" class="step--input" bindchange="change" placeholder="" value="" />
+    </view>
+  </view>
+  <view class="step-item">
+    <view class="step--title">
+      <text class="step--title__number">2</text>
+      <text class="step--title__name">宝宝性别</text>
+    </view>
+    <view>
+      <radio-group data-name="sex" bindchange="change" class="step-radio-group">
+        <label class="step--radio-item">
+          <radio class="step--radio-item__radio" value="1" />
+          <view class="step--radio-item__simulate-radio {{sex === 1 ? 'active' : ''}}"></view>
+          <text>男</text>
+        </label>
+        <label class="step--radio-item">
+          <radio class="step--radio-item__radio" value="2" />
+          <view class="step--radio-item__simulate-radio {{sex === 2 ? 'active' : ''}}"></view>
+          <text>女</text>
+        </label>
+        <label class="step--radio-item step--radio-item-last">
+          <radio class="step--radio-item__radio" value="3" />
+          <view class="step--radio-item__simulate-radio {{sex === 3 ? 'active' : ''}}"></view>
+          <text>未知</text>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <view class="step-item">
+    <view class="step--title">
+      <text class="step--title__number">3</text>
+      <text class="step--title__name">必须包含的字（选填）</text>
+    </view>
+    <view>
+      <input data-name="inname" bindchange="change" class="step--input" placeholder="" value="" />
+    </view>
+  </view>
+  <view>
+    <radio-group data-name="innamePosition" bindchange="change" class="step-radio-group">
+      <label class="step--radio-item">
+        <radio class="step--radio-item__radio" value="1" />
+        <view class="step--radio-item__simulate-radio {{innamePosition === 1 ? 'active' : ''}}"></view>
+        <text>在中间</text>
+      </label>
+      <label class="step--radio-item step--radio-item-last">
+        <radio class="step--radio-item__radio" value="2" />
+        <view class="step--radio-item__simulate-radio {{innamePosition === 2 ? 'active' : ''}}"></view>
+        <text>在最后</text>
+      </label>
+    </radio-group>
+  </view>
+  <button class="btn-bename" bindtap="btnSubmit">马上起名</button>
+</view>
