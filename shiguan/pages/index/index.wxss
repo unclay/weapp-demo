@@ -1,0 +1,49 @@
+page {
+  height: 100%;
+}
+.shiguan {
+  height: 100%;
+  background-color: #62cfc6;
+}
+
+.shiguan-container__before {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.shiguan-container {
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10%;
+  text-align: center;
+}
+.shiguan--logo {
+  display: block;
+  margin: 0 auto;
+  width: 180rpx;
+  height: 180rpx;
+}
+.shiguan--title {
+  display: block;
+  margin: 10rpx 0 40rpx 0;
+  font-size: 100rpx;
+  color: #fff;
+}
+.shiguan--word {
+  display: block;
+  margin-top: 14rpx;
+  font-size: 32rpx;
+  color: #fff;
+}
+.shiguan--word__highlight {
+  color: #ffdd67;
+}
+.shiguan--btn {
+  margin-top: 100rpx;
+  height: 82rpx;
+  line-height: 82rpx;
+  border: 4rpx solid #fff;
+  border-radius: 14rpx;
+  color: #fff;
+}

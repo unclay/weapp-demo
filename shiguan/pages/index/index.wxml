@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="shiguan">
+  <view class="shiguan-container__before"></view>  
+  <view class="shiguan-container">
+    <image class="shiguan--logo" mode="aspectFit" src="./img/logo.png"></image>
+    <text class="shiguan--title">试管助手</text>
+    <text class="shiguan--word">一分钟为您预测试管婴儿方案</text>
+    <text class="shiguan--word">并估算<text class="shiguan--word__highlight">成功率</text>和<text class="shiguan--word__highlight">费用</text></text>
+    <view class="shiguan--btn">马上开始</view>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
